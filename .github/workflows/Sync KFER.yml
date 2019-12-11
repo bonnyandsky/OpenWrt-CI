@@ -31,7 +31,7 @@ jobs:
 
     - name: Set git identity
       run : |
-        git config --global user.email "bonnyandsky@gmail.com"
+        git config --global user.email "bonnyandsky@163.com"
         git config --global user.name "bonnyandsky"
     - name: Load upstream commits
       run: git pull https://github.com/KFERMercer/OpenWrt-CI.git --no-edit --allow-unrelated-histories --strategy-option ours
